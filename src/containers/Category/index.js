@@ -14,7 +14,7 @@ const Category = () => {
           <div>
             <div className="uk-section">
               <div className="uk-container uk-container-large">
-                <h1>{category.name}</h1>
+                <h1 style={{ fontSize: "10vw" }}>{category.name}</h1>
                 <Articles articles={category.articles} />
               </div>
             </div>
