@@ -14,8 +14,11 @@ const Nav = () => {
               <nav className="uk-navbar-container" data-uk-navbar>
                 <div className="uk-navbar-left">
                   <ul className="uk-navbar-nav">
-                    <li>
-                      <Link to="/">Strapi Blog</Link>
+                    <li style={{ fontWeight: "bold" }}>
+                      <Link to="/">
+                        <span uk-icon="icon: bolt"></span>
+                        <p>&nbsp;&nbsp;Team TyRy</p>
+                      </Link>
                     </li>
                   </ul>
                 </div>
