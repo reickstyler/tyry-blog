@@ -11,7 +11,7 @@ const Card = ({ article }) => {
       <div className="uk-card uk-card-muted">
         <div className="uk-card-media-top">
           <img
-            style={{ borderRadius: "20px" }}
+            style={{ borderRadius: "10px" }}
             src={imageUrl}
             alt={article.image.url}
             height="100"
